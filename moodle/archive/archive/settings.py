@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure--z@23*b+zg33sv$i&sytcs58^e88^3x4k=)k*8s$bsn3x9t&di
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["*"]
 
 MESSAGE_TAGS = {
     messages.DEBUG: 'alert-secondary',
